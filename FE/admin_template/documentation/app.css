@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+#wrapper pre {
+  background-color: #f1f1f1;
+  padding: 20px 40px;
+  border-radius: 5px; }
+  #wrapper pre p {
+    padding: 0;
+    margin: 0 !important; }
+
+#wrapper #sidebar {
+  background-color: #f5f5f5;
+  position: fixed;
+  width: 340px;
+  height: 100%; }
+  #wrapper #sidebar .logo {
+    text-align: center;
+    margin-top: 30px; }
+  #wrapper #sidebar ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 100px; }
+    #wrapper #sidebar ul li {
+      list-style: none;
+      padding: 10px 0;
+      margin-bottom: 10px; }
+      #wrapper #sidebar ul li a {
+        text-align: left;
+        padding: 10px 30px;
+        width: 200px;
+        background-color: black;
+        font-size: 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        color: #fff;
+        transition: all 0.333s; }
+        #wrapper #sidebar ul li a:hover {
+          opacity: 0.8; }
+
+#wrapper #content {
+  background-color: #fff;
+  padding: 20px 40px;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  margin-left: 340px; }
+  #wrapper #content p {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif; }
+    #wrapper #content p a {
+      text-decoration: none;
+      color: #7e80e7; }
+  #wrapper #content .head {
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f1f1f1; }
+  #wrapper #content #intro {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f1f1f1; }
+    #wrapper #content #intro li {
+      margin-bottom: 10px; }
+  #wrapper #content #install {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f1f1f1; }
+  #wrapper #content #file {
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f1f1f1; }

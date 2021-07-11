@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #4755ab;
+  --secondary: #b162ac;
+  --success: #03c895;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #ff4f81;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.login-form,
+.register-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h3.login__title,
+h3.register__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: var(--primary);
+}
+
+.login-form,
+.register-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.login-bottom-left {
+  float: left;
+  padding: 10px;
+}
+
+.login-bottom-left p {
+  font-size: 13px;
+  color: #eee;
+}
+
+.login-bottom-left p a {
+  color: #fff;
+}
+
+.login-bottom-left p a:hover {
+  text-decoration: underline;
+}
+
+.login-bottom-right {
+  float: right;
+  padding: 10px;
+}
+
+.login-bottom-right li {
+  display: inline-block;
+  color: #eee;
+}
+
+.login-bottom-right li a {
+  font-size: 12px;
+  color: #eee;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.login-bottom-right li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.login_text_field_bg {
+  background-color: rgba(71, 90, 171, 0.07);
+}
+
+.card ul.nav li a {
+  padding: 6px 12px;
+  color: var(--para-color);
+  border-bottom: 2px solid #fff;
+  font-size: 14px;
+  display: block;
+}
+
+.card ul.nav li a:hover {
+  background: #f8f9fa;
+}
+
+.card ul.nav li.active a {
+  color: var(--primary);
+  border-radius: 4px;
+  background: rgba(245, 115, 238, 0.1);
+}
+
+.card ul.nav li.disabled a {
+  background: #fff;
+  color: var(--heading-color);
+  border-left: 2px solid #eee;
+}
+
+.card ul.nav li.active a span.badge {
+  background: var(--primary);
+  color: #fff;
+}
+
+.card-heading {
+  color: var(--secondary);
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+}
+
+.card-heading span.fa {
+  margin-right: 5px;
+}
+
+.inbox__grid h6 {
+  text-align: right;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.card ul.nav li span.badge {
+  padding: 5px 10px;
+  background: rgba(71, 90, 171, 0.11);
+  color: #777;
+  font-weight: 600;
+  margin-left: 5px;
+  border-radius: 50px;
+  float: right;
+  font-size: 12px;
+}
+
+.card ul.nav li a span.fa {
+  width: 20px;
+}
+
+.card_border {
+  border: none;
+  box-shadow: var(--card-shadow);
+}
+
+.card_border:hover i.lnr {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  opacity: 1;
+}
+
+.card_border:hover i.lnr.lnr-users {
+  color: var(--primary);
+}
+
+.card_border:hover i.lnr.lnr-eye {
+  color: var(--secondary);
+}
+
+.card_border:hover i.lnr.lnr-cloud-download {
+  color: var(--success);
+}
+
+.card_border:hover i.lnr.lnr-cart {
+  color: var(--danger);
+}
+
+.input__label {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-bottom: 3px;
+}
+
+@media (max-width: 520px) {
+  .login-form,
+  .register-form,
+  .error {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .login-form,
+  .register-form,
+  .error {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  a.card__title {
+    font-size: 17px;
+  }
+  h3.login__title,
+  h3.register__title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
